@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <title>Agência Ontime | Soluções Digitais</title>
+    
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+    
+        <!-- CSS here -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- ======================================
+    ******* Page Wrapper Area Start **********
+    ======================================= -->
+    <div class="main-content- bg-img" style="background-image: url(img/bg-form-1.png);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <!-- Middle Box -->
+                    <div class="middle-box">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <div class="row align-items-center">
+                                    <div class="col-12">
+                                        <div class="login-bg-thumb bg-overlay-3 bg-img" style="background-image:url(img/form-bg-head.png)">
+                                            <!-- Logo -->
+                                            <h3 class="text-center">Formulário</h3>
+
+                                        </div>
+                                        <div class="login-form-area p-4">
+                                            <form action="#" method="post">
+
+                                                <div class="form-group">
+                                                    <label class="float-left" for="address">Região onde a empresa se encontra</label>
+                                                    <br><hr>
+                                                  
+                                                       <label>
+                                                        <select id="estado" onchange="buscaCidades(this.value)">
+                                                        <option value="">Selecione o Estado</option>
+                                                        <option value="AC">Acre</option>
+                                                        <option value="AL">Alagoas</option>
+                                                        <option value="AM">Amazonas</option>
+                                                        <option value="AP">Amapá</option>
+                                                        <option value="BA">Bahia</option>
+                                                        <option value="CE">Ceará</option>
+                                                        <option value="DF">Distrito Federal</option>
+                                                        <option value="ES">Espírito Santo</option>
+                                                        <option value="GO">Goiás</option>
+                                                        <option value="MA">Maranhão</option>
+                                                        <option value="MG">Minas Gerais</option>
+                                                        <option value="MS">Mato Grosso do Sul</option>
+                                                        <option value="MT">Mato Grosso</option>
+                                                        <option value="PA">Pará</option>
+                                                        <option value="PB">Paraíba</option>
+                                                        <option value="PE">Pernambuco</option>
+                                                        <option value="PI">Piauí</option>
+                                                        <option value="PR">Paraná</option>
+                                                        <option value="RJ">Rio de Janeiro</option>
+                                                        <option value="RN">Rio Grande do Norte</option>
+                                                        <option value="RO">Rondônia</option>
+                                                        <option value="RR">Roraima</option>
+                                                        <option value="RS">Rio Grande do Sul</option>
+                                                        <option value="SC">Santa Catarina</option>
+                                                        <option value="SE">Sergipe</option>
+                                                        <option value="SP">São Paulo</option>
+                                                        <option value="TO">Tocantins</option>
+                                                        </select>
+                                                    </label>                                                   
+                                                     <br />
+                                                     <select id="cidade">
+                                                        <option value="">Selecione a cidade</option>
+                                                     </select>
+                                                </div>                                              
+
+                                                <div class="form-group">
+                                                    <label class="float-left" for="">Qual ramo do seu negócio?</label>                                                    
+                                                    <textarea class="form-control" id="msg" name="usuario_msg" required=""></textarea>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label class="float-left" for="">Quais estratégias de marketing você utiliza em seu negócio?</label>                                                    
+                                                    <textarea class="form-control" id="msg" name="usuario_msg" required=""></textarea>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label class="float-left" for="">Adicione nesse campo as mídias sociais da empresa </label>                                                    
+                                                    <textarea class="form-control" id="msg" name="usuario_msg" required="" placeholder="(Instagram, Facebook, Site)" ></textarea>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label class="float-left" for="">Qual meio de venda gera mais receita para a empresa?</label>                                                    
+                                                    <textarea class="form-control" id="msg" name="usuario_msg" required=""></textarea>
+                                                </div>
+
+                                                                                   
+
+                                                <div class="form-group mb-0 mt-30">
+                                                    <button class="btn theme-btn-two btn-block" type="submit"> Enviar </button>
+                                                </div>
+
+
+                                                
+
+                                            </form>
+                                        </div>
+                                    </div> <!-- end card-body -->
+                                </div>
+                                <!-- end card -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================
+    ********* Page Wrapper Area End ***********
+    ======================================= -->
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.animatedheadline.min.js"></script>
+    <script src="js/date-time.js"></script>
+    <script src="js/bundle.js"></script>
+    <script src="js/states.js"></script>
+
+    <!-- Custom js-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

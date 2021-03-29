@@ -64,7 +64,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   color: #454545;
-  background-color: #f1f7ff;
+  background-color: #fff;
 }
 
 .img {
@@ -4356,7 +4356,7 @@ img {
   color: rgba(255, 255, 255, 0.85);
 }
 
-/* ----- Login Area ----- */
+/* ----- Form Area ----- */
 
 .login-bg-thumb {
   padding: 50px 0;
@@ -4365,7 +4365,9 @@ img {
 
 .login-bg-thumb h3 {
   font-size: 40px;
-  color: #fff;
+  color: #363636;
+  font-family: 'Gotham Ultra';
+
 }
 
 .middle-box {
@@ -4379,6 +4381,8 @@ img {
 .forget-title a {
   color: #22105f;
 }
+
+
 
 .forget-title a:hover {
   color: #fecc29;
