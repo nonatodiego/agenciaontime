@@ -57,6 +57,11 @@
 @import 'jquery.animatedheadline.css';
 @import 'boxicons.min.css';
 
+@font-face {
+  font-family: Gotham Ultra;
+  src: url(../fonts/gotham-ultra.otf);
+}
+
 /* :: Reboot CSS */
 
 body {
@@ -3330,7 +3335,7 @@ img {
   width: 70px;
 }
 
-/* ----- Login Css Area ----- */
+/* ----- Form Css Area ----- */
 
 .main-content- {
   min-height: 100vh;
@@ -3343,6 +3348,7 @@ img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 /* :: Single Blog Main Page Area CSS */
@@ -4367,6 +4373,7 @@ img {
   font-size: 40px;
   color: #363636;
   font-family: 'Gotham Ultra';
+  margin-right: -70px;
 
 }
 
