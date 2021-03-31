@@ -258,7 +258,7 @@ img {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.85;
+  opacity: -2.15;
 }
 
 .bg-overlay-2 {
@@ -269,7 +269,7 @@ img {
 .bg-overlay-2::before {
   position: absolute;
   content: '';
-  background-color: #fecc29;
+  /* background-color: #fecc29; */
   top: 0;
   left: 0;
   width: 100%;
@@ -4464,6 +4464,14 @@ img {
   color: #fff;
   margin-bottom: 15px;
   text-transform: capitalize;
+}
+
+.breadcrumb_iner_item h2 span {
+  color: #fff;
+  background-color: #000;
+  border-radius: 15px;
+  padding: 5px;
+  margin-bottom: 15px;
 }
 
 .custom-breadcrumb ol li a {
