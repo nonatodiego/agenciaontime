@@ -2209,6 +2209,10 @@ img {
 .single-benefit-text h5 {
   font-size: 16px;
 }
+.single-benefit-text p {
+  font-size: 20px;
+  cursor: pointer;
+}
 
 /* ---- Home -3 ---- */
 
@@ -6511,7 +6515,7 @@ img {
 
   .we-offer-content-3 h3 {
     font-size: 36px;
-  }
+  } 
 
   .single-hosting-text h4 {
     font-size: 18px;
