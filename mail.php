@@ -2,6 +2,8 @@
     
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+        require 'phpmailer/PHPMailerAutoload.php';
         
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
@@ -21,7 +23,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "private.chinarani6@gmail.com";
+        $recipient = "nonatodiego@hotmail.com";
 
         // Set the email subject.
         $subject = "New Message from $name";
@@ -40,7 +42,7 @@
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             // Set a 200 (okay) response code.
             http_response_code(200);
-            echo "Thanks! Message has been sent successfully.";
+            echo "Obrigado! Mensagem enviada com sucesso.";
         } else {
             // Set a 500 (internal server error) response code.
             http_response_code(500);
